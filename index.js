@@ -19,9 +19,16 @@ if (localStorage.getItem('books')) {
 
 /* Date and time */
 
-const now = DateTime.local();
-const formatted = now.toFormat('yyyy-MM-dd HH:mm:ss');
-document.getElementById('datetime').innerHTML = formatted;
+const datetime = document.getElementById('datetime');
+
+const updateTime = () => {
+  const now = DateTime.local();
+  const formatted = now.toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS);
+  datetime.innerHTML = formatted;
+};
+
+updateTime();
+setInterval(updateTime, 1000);
 
 /* Menu Control */
 
