@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Awesome Books ES6] <a name="about-project"></a>
 
-**Awesome Books ES6** is a book storing site built on HTML, CSS and javascript using Modules and ES6 syntax.
+**Awesome Books ES6** is a book storing site built on HTML, CSS and javascript with the code separated using Modules and ES6 syntax.
 
 ## 🛠 Built With <a name="built-with"></a>
 
