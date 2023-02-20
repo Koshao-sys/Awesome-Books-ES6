@@ -104,7 +104,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://koshao-sys.github.io/Awesome-Books-Modules/)
+- [Live Demo Link](https://koshao-sys.github.io/Awesome-Books-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,7 +130,7 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/Koshao-sys/Awesome-Books-Modules.git
+Clone this repository to your desired folder: https://github.com/Koshao-sys/Awesome-Books-ES6.git
 
 <!--
 Example commands:
