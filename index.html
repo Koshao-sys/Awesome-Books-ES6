@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="main">
+        <div>
+            <nav class="nav-menu">
+                <p>Awesome Books</p>
+                <ul>
+                    <li><a href="#div1" id="link1">List</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="#div2" id="link2">Add new</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="#div3" id="link3">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="datetime"></div>
+            <div class="container-01">
+                <div id="div1" class="listbook">
+                    <h1>All awesome books</h1>
+                    <div class="books-col"></div>
+                </div>
+                <div id="div2" class="addbook">            
+                    <span class="dash"></span>
+                    <div class="add-container">
+                        <center><h2>Add a new book</h2></center>
+                        <input type="text" id="title" placeholder="Title">
+                        <input type="text" id="author" placeholder="Author">
+                        <button type="submit" id="add-books" class="add-book-btn">Add</button>
+                    </div>
+                </div>
+                <div id="div3">
+                    <div class="about">
+                        <h2>Contact Information</h2>
+                        <p class="about-main-para">Do you have any questions or you just want to say "Hello"?<br>You can reach out to us.</p>
+                        <ul>
+                            <li><p>Our email: kkoshao99@gmail.com</p></li>
+                            <li><p>Our phone number: +256771351203 / +256704020700</p></li>
+                            <li><p>Our Address: Zzana, Kampala, Uganda</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 Koshao/Awesome Books. All rights reserved.</p>
+        </div>
+    </div>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
