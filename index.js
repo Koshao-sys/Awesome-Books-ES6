@@ -6,7 +6,7 @@ const bookCollection = new BookCollection();
 
 addBtn.addEventListener('click', () => {
   const title = document.querySelector('#title');
-  const author = document.querySelector('#au--fxthor');
+  const author = document.querySelector('#author');
   bookCollection.addBook(title.value, author.value);
   title.value = '';
   author.value = '';
